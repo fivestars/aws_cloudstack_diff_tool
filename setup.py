@@ -28,7 +28,7 @@ setup(name='aws_stack_diff',
       license='MIT',
       packages=['aws_cloudstack_diff_tool'],
       install_requires=[
-          'git+ssh://git@github.com/fivestars/boto3_wrapper.git',
+          'git+ssh://git@github.com/fivestars/boto3_wrapper.git@master',
           'datadiff==2.0.0',
           'six==1.10.0',
       ],
